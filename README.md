@@ -1,1 +1,1 @@
-# Continual-Learning-for-Astronomy
+# Contrastive-Learning-for-Astronomy
