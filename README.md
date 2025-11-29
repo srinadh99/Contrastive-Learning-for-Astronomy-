@@ -36,5 +36,5 @@ Table 1 summarizes the key classification metrics: Accuracy, Precision, and Reca
 
 | Experiment                                  | Classification Task    | MargNet Accuracy (%) | SimCLR Accuracy (%) | MargNet Precision (%) | SimCLR Precision (%) | MargNet Recall (%) | SimCLR Recall (%) |
 |---------------------------------------------|------------------------|----------------------|---------------------|-----------------------|----------------------|--------------------|-------------------|
-| **Experiment 1 (Compact Train/Test)**       | Star-Galaxy            | 98.1 ± 0.1           | 97.7 ± 0.1        | 98.1 ± 0.1            | 97.7 ± 0.1              | 98.1 ± 0.1         | 97.7 ± 0.1               |
-| **Experiment 3 (Compact Train, Faint+Compact Test)** | Star-Galaxy        | 92.7 ± 0.1           | 91.1 ± 0.1                 | 93.2 ± 0.1            | 92.0 ± 0.1                 | 92.7 ± 0.1         | 91.1 ± 0.1              |
+| **Experiment 1 (Compact Train/Test)**       | Star-Galaxy            | 98.1 ± 0.1           | 97.7 ± 0.1        | 98.1 ± 0.1            | 97.7 ± 0.1              | 98.1 ± 0.1         | 97.7 ± 0.1           |
+| **Experiment 3 (Compact Train, Faint+Compact Test)** | Star-Galaxy        | 92.7 ± 0.1           | 91.1 ± 0.1                 | 93.2 ± 0.1            | 92.0 ± 0.1                 | 92.7 ± 0.1         | 91.1 ± 0.1          |
