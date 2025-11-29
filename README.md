@@ -5,8 +5,8 @@
 More details about the dataset can be found in **[MargFormer](https://github.com/srinadh99/AstroFormer)**
 
 *   **Task:** Star-Galaxy-Quasar classification.
-*   **Description:** `MargFormer` is the specific implementation of the AstroFormer concept tailored for the SG/SGQ classification tasks. It utilizes a cross-attention mechanism where photometric features (queries) probe image patch embeddings (keys/values), allowing for unified processing of both data types.
-*   **Dataset:** The model is developed and evaluated using data products from the **Sloan Digital Sky Survey (SDSS) Data Release 16 (DR16)** [1]. This includes:
+*   **Description:** `SimCLR with MargFormer` is the specific implementation tailored for the SG/SGQ classification tasks. It utilizes a cross-attention mechanism where photometric features (queries) probe image patch embeddings (keys/values), allowing for unified processing of two data types (photometry and FITS images).
+*   **Dataset:** The model is developed and evaluated using data products from the **Sloan Digital Sky Survey (SDSS) Data Release 16 (DR16)**. This includes:
     *   Derived photometric features (magnitudes, colors, etc.).
     *   Corresponding FITS images in u, g, r, i, z filters.
     *   Ground-truth spectroscopic classifications from the official SDSS pipeline.
