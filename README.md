@@ -22,7 +22,7 @@ More details about the dataset can be found in **[MargFormer](https://github.com
     *   **Experiment 2:**
         *   **Training & Validation:** Faint and Compact source dataset.
         *   **Testing:** Faint and Compact source dataset.
-        
+
     *   **Experiment 3:**
         *   **Training & Validation:** Compact source dataset.
         *   **Testing:** Faint and Compact source dataset.
