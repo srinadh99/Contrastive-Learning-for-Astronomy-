@@ -32,24 +32,11 @@ More details about the dataset can be found in **[MargFormer](https://github.com
 
 Table 1 summarizes the key classification metrics: Accuracy, Precision, and Recall, averaged over 3 independent runs to estimate uncertainty.
 
-**Table 1: MargFormer Classification Performance Metrics**
-
-| Experiment | Classification Task | Model  | Accuracy (%) | Precision (%) | Recall (%) |
-|-----------|----------------------|--------|--------------|---------------|------------|
-| **Experiment 1** | Star-Galaxy            | MargNet | 98.1 ± 0.1 | 98.1 ± 0.1 | 98.1 ± 0.1 |
-| **Experiment 1** | Star-Galaxy            | SimCLR  | TBD        | TBD        | TBD        |
-| Compact Train/Test | Star-Galaxy-Quasar  | MargNet | 93.2 ± 0.1 | 93.3 ± 0.1 | 93.2 ± 0.1 |
-| Compact Train/Test | Star-Galaxy-Quasar  | SimCLR  | TBD        | TBD        | TBD        |
-| **Experiment 3** | Star-Galaxy            | MargNet | 92.7 ± 0.1 | 93.2 ± 0.1 | 92.7 ± 0.1 |
-| **Experiment 3** | Star-Galaxy            | SimCLR  | TBD        | TBD        | TBD        |
-| Compact Train, Faint+Compact Test | Star-Galaxy-Quasar | MargNet | 75.2 ± 0.1 | 77.9 ± 0.1 | 75.3 ± 0.1 |
-| Compact Train, Faint+Compact Test | Star-Galaxy-Quasar | SimCLR  | TBD        | TBD        | TBD        |
+**Table 1: MargFormer and SimCLR Classification Performance Metrics**
 
 | Experiment                                  | Classification Task    | MargNet Accuracy (%) | SimCLR Accuracy (%) | MargNet Precision (%) | SimCLR Precision (%) | MargNet Recall (%) | SimCLR Recall (%) |
 |---------------------------------------------|------------------------|----------------------|---------------------|-----------------------|----------------------|--------------------|-------------------|
 | **Experiment 1 (Compact Train/Test)**       | Star-Galaxy            | 98.1 ± 0.1           | TBD                 | 98.1 ± 0.1            | TBD                  | 98.1 ± 0.1         | TBD               |
 | **Experiment 1 (Compact Train/Test)**       | Star-Galaxy-Quasar     | 93.2 ± 0.1           | TBD                 | 93.3 ± 0.1            | TBD                  | 93.2 ± 0.1         | TBD               |
-| **Experiment 2 (Faint+Compact Train/Test)** | Star-Galaxy            | 97.1 ± 0.1           | TBD                 | 97.1 ± 0.1            | TBD                  | 97.1 ± 0.1         | TBD               |
-| **Experiment 2 (Faint+Compact Train/Test)** | Star-Galaxy-Quasar     | 86.7 ± 0.1           | TBD                 | 86.8 ± 0.1            | TBD                  | 86.7 ± 0.1         | TBD               |
 | **Experiment 3 (Compact Train, Faint+Compact Test)** | Star-Galaxy        | 92.7 ± 0.1           | TBD                 | 93.2 ± 0.1            | TBD                  | 92.7 ± 0.1         | TBD               |
 | **Experiment 3 (Compact Train, Faint+Compact Test)** | Star-Galaxy-Quasar | 75.2 ± 0.1           | TBD                 | 77.9 ± 0.1            | TBD                  | 75.3 ± 0.1         | TBD               |
